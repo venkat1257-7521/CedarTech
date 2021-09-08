@@ -79,7 +79,7 @@ var option = SelectedProductionLine.options
                 
                 <div className='ProductionOutput-header'>
                   <FaIcons.FaChartArea className='ProductionOutput-icon' size={20} color={'white'}/>
-                  <h3 className='ProductionOutput-title'>{title} Production Output Report</h3>
+                  <h3 className='ProductionOutput-title'>{title} Production Output</h3>
                 </div>
               
               <div className="ProductionOutput-body">

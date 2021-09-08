@@ -81,7 +81,7 @@ var option = SelectedProductionLine.options
 
                 <div className='CycleTime-header'>
                   <FaIcons.FaChartArea className='CycleTime-icon' size={20} color={'white'}/>
-                  <h3 className='CycleTime-title'>{title} Cycle Time Report</h3>
+                  <h3 className='CycleTime-title'>{title} Cycle Time </h3>
                 </div>
               
               <div className="CycleTime-body">

@@ -24,8 +24,8 @@ let LineChart_options = {
             zeroLineColor: "transparent",
           },
           ticks: {
-            suggestedMin: 60,
-            suggestedMax: 15,
+            suggestedMin: 0,
+            suggestedMax: 0,
             padding: 20,
             fontColor: "#262626",
           },
@@ -92,7 +92,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Output",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -106,7 +106,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [50, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [5000, 5344, 6302, 6234, 5062, 5068, 7000, 8032, 6344, 4567, 6789, 7002, 8835, 6775, 6546, 6778, 5056, 6454, 6767, 7034, 7805, 6073, 7034, 7057, 6067, 4023],
           },
           
         ],
@@ -133,7 +133,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Output",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -147,7 +147,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            data: [50067, 34567, 46784, 49885, 50212, 45678, 51112],
           },
         ],
       };
@@ -178,7 +178,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Output",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -192,7 +192,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [1000023, 1732422, 1222232, 1567891, 1435362, 1233425, 1256721, 1453114, 1243542, 1343433, 1244522, 1345634],
           },
         ],
       };
@@ -240,7 +240,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Output",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -254,7 +254,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [50, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [5234, 5242, 6304, 6264, 5234, 5345, 5643, 5324, 4523, 5665, 6754, 7674, 6835, 6435, 6456, 6455, 3455, 4563, 6764, 7034, 7345, 5625, 6034, 6457, 6767, 7023],
           },
           
         ],
@@ -281,7 +281,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Output",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -295,7 +295,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            data: [51234, 44567, 56784, 59885, 30212, 35578, 41212],
           },
         ],
       };
@@ -326,7 +326,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Output",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -340,7 +340,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [1320023, 1752422, 1522232, 1556891, 1235462, 1133425, 1456221, 1253414, 1143442, 1324433, 1344542, 1845134],
           },
         ],
       };
@@ -388,7 +388,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Output",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -402,7 +402,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [50, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [6000, 5144, 6602, 6734, 4062, 5458, 7240, 5032, 5344, 7567, 8789, 9002, 8835, 6775, 7546, 6378, 5236, 5354, 7761, 4534, 7585, 5173, 4504, 5057, 6021, 4353],
           },
           
         ],
@@ -429,7 +429,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Output",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -443,7 +443,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90],
+            data: [55214, 63567, 46784, 55185, 42212, 45178, 62212],
           },
         ],
       };
@@ -474,7 +474,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Output",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -488,7 +488,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [1120023, 1452422, 1322232, 1256891, 1635462, 1333425, 1456221, 1352414, 1345442, 1521433, 1344542, 1745334],
           },
         ],
       };

@@ -78,7 +78,7 @@ if(LineChart_ProductionTime_Example1=="MonthlyData" && ProductionLineState == "2
 
                 <div className='ProductionTime-header'>
                   <FaIcons.FaChartArea className='ProductionTime-icon' size={20} color={'white'}/>
-                  <h3 className='ProductionTime-title'>{title} Production Time Report</h3>
+                  <h3 className='ProductionTime-title'>{title} Production Time </h3>
                 </div>
               
               <div className="ProductionTime-body">

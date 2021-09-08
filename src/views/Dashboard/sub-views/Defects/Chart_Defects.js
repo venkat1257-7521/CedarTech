@@ -24,8 +24,8 @@ let LineChart_options = {
             zeroLineColor: "transparent",
           },
           ticks: {
-            suggestedMin: 60,
-            suggestedMax: 15,
+            suggestedMin: 0,
+            suggestedMax: 0,
             padding: 20,
             fontColor: "#262626",
           },
@@ -103,7 +103,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [12, 11, 6, 7, 10, 13, 12, 5, 6, 7, 5,6, 4, 4, 5, 8, 10, 9, 12, 12, 10, 12, 8, 9, 10, 12],
           },
         ],
       };
@@ -143,7 +143,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            data: [150, 168, 200, 230, 250, 211, 267]
           },
         ],
       };
@@ -188,7 +188,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [1200, 1234, 1453, 1254, 1264, 1241, 1304, 1503, 1551, 1301, 1453, 1478],
           },
         ],
       };
@@ -251,7 +251,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [13, 11, 15, 11, 15, 17, 11, 15, 17, 12, 17, 15, 11, 17, 12, 11, 17, 19, 13, 17, 16, 12, 10, 18, 11, 15],
           },
         ],
       };
@@ -291,7 +291,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            data: [155, 161, 214, 231, 256, 257, 215]
           },
         ],
       };
@@ -322,7 +322,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "My First dataset",
+            label: "Defects",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -336,7 +336,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [1250, 1264, 1453, 1274, 1243, 1245, 1365, 1235, 1426, 1478, 1414, 1572],
           },
         ],
       };
@@ -400,7 +400,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [16, 13, 16, 18, 11, 15, 14, 13, 12, 15, 11, 17, 18, 11, 15, 17, 13, 16, 16, 13, 13, 19, 19, 12, 14, 12],
           },
         ],
       };
@@ -440,7 +440,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            data: [157, 121, 244, 211, 256, 212, 215]
           },
         ],
       };
@@ -485,7 +485,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [1256, 1214, 1345, 1567, 1124, 1456, 1673, 1864, 1245, 1743, 1123, 1563],
           },
         ],
       };

@@ -24,8 +24,8 @@ let LineChart_options = {
             zeroLineColor: "transparent",
           },
           ticks: {
-            suggestedMin: 60,
-            suggestedMax: 15,
+            suggestedMin: 0,
+            suggestedMax: 0,
             padding: 20,
             fontColor: "#262626",
           },
@@ -90,7 +90,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Time (Minutes)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -104,7 +104,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [45, 50, 31, 40, 45, 46, 45, 41, 42, 45, 46, 45, 47, 42, 47, 46, 48, 49, 43, 49, 48, 46, 49, 48, 45, 48],
           },
         ],
       };
@@ -130,7 +130,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Time (Hours)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -144,7 +144,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            data: [13, 12, 15, 12, 11, 11, 12],
           },
         ],
       };
@@ -175,7 +175,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Time (Hours)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -189,7 +189,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [372, 351, 346, 342, 346, 363, 356, 367, 324, 336, 352, 314],
           },
         ],
       };
@@ -238,7 +238,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Time (Minutes)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -252,7 +252,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [42, 50, 41, 41, 44, 45, 47, 54, 46, 41, 47, 41, 46, 52, 41, 41, 43, 46, 49, 39, 45, 41, 44, 43, 50, 46]
           },
         ],
       };
@@ -278,7 +278,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Time (Hours)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -292,7 +292,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            data: [11, 13, 11, 10, 14, 13, 10],
           },
         ],
       };
@@ -323,7 +323,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Time (Hours)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -337,7 +337,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [371, 321, 336, 342, 312, 335, 343, 327, 344, 316, 334, 344],
           },
         ],
       };
@@ -386,7 +386,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Time (Minutes)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -400,7 +400,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [41, 54, 43, 46, 47, 41, 41, 44, 56, 44, 41, 46, 41, 54, 49, 47, 45, 43, 42, 38, 50, 48, 49, 44, 45, 41]
           },
         ],
       };
@@ -426,7 +426,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Time (Hours)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -440,7 +440,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            data: [14, 12, 14, 11, 12, 15, 12],
           },
         ],
       };
@@ -471,7 +471,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Production Time (Hours)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -485,7 +485,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [311, 351, 366, 372, 354, 345, 333, 357, 324, 342, 334, 341],
           },
         ],
       };

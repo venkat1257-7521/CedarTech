@@ -64,7 +64,7 @@ if(ProductionLineState=="2"){
                 
                 <div className='Defect-header'>
                   <FaIcons.FaChartArea className='Defect-icon' size={20} color={'white'}/>
-                  <h3 className='Defect-title'>Example Chart For Defect</h3>
+                  <h3 className='Defect-title'>Defect Quantity</h3>
                 </div>
               
               <div className="Defect-body">

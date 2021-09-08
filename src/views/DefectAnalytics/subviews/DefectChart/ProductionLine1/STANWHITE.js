@@ -93,7 +93,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Output",
+            label: "Defects",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",

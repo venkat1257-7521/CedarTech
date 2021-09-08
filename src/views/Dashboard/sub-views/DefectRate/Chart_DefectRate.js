@@ -24,8 +24,8 @@ let LineChart_options = {
             zeroLineColor: "transparent",
           },
           ticks: {
-            suggestedMin: 60,
-            suggestedMax: 15,
+            suggestedMin: 0,
+            suggestedMax: 8,
             padding: 20,
             fontColor: "#262626",
           },
@@ -91,7 +91,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Defect Rate (%)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -105,7 +105,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [2.6, 2.8, 2.9, 3, 3.4, 3.6, 3.7, 2.9, 3.0, 3.2, 3.3, 3.5, 3.7, 3.5, 3.6, 3.5, 3.4, 3.4, 3.6, 3.7, 3.4, 3.2, 3.6, 3.5, 3.4, 3.7],
           },
         ],
       };
@@ -131,7 +131,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "My First dataset",
+            label: "Defect Rate (%)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -145,7 +145,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            data: [4.5, 3.4, 3.6, 3.4, 3.56, 3.1, 4],
           },
         ],
       };
@@ -176,7 +176,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Defect Rate (%)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -190,7 +190,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [5, 3, 4, 5, 3, 2, 6, 4, 8, 2, 4, 6],
           },
         ],
       };
@@ -239,7 +239,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Defect Rate (%)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -253,7 +253,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [1.6, 3.8, 1.9, 2.33, 3.4, 5.6, 2.7, 2.4, 1.0, 5.2, 6.3, 7.5, 8.7, 1.5, 4.6, 2.5, 3.4, 2.4, 4.1, 3.8, 3.7, 3.5, 3.6, 3.3, 3.4, 4.0],
           },
         ],
       };
@@ -279,7 +279,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Defect Rate (%)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -293,7 +293,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            data: [4.1, 4.4, 4.6, 4.3, 4.26, 4.4, 4.8],
           },
         ],
       };
@@ -324,7 +324,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Defect Rate (%)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -338,7 +338,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [9, 10, 7, 8, 5, 6, 3, 4, 5, 6, 5, 3],
           },
         ],
       };
@@ -387,7 +387,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Defect Rate (%)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -401,7 +401,7 @@ let LineChart_options = {
             pointHoverRadius: 0,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100, 88, 70, 20, 30, 50, 80, 10, 38, 78, 46, 50, 70, 60, 40],
+            data: [1.7, 3.8, 2.9, 6.33, 7.4, 3.6, 6.7, 3.4, 7.0, 9.2, 2.3, 4.5, 1.7, 4.5, 7.6, 3.5, 8.4, 1.4, 8.1, 1.8, 8.7, 1.5, 7.6, 9.3, 1.4, 9.0],
           },
         ],
       };
@@ -427,7 +427,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Defect Rate (%)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -441,7 +441,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
+            data: [4.7, 5.1, 3.4, 4.6, 4.8, 6.1, 4.5],
           },
         ],
       };
@@ -472,7 +472,7 @@ let LineChart_options = {
         ],
         datasets: [
           {
-            label: "Defects",
+            label: "Defect Rate (%)",
             fill: true,
             backgroundColor: gradientStroke,
             borderColor: "#262626",
@@ -486,7 +486,7 @@ let LineChart_options = {
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,
             pointRadius: 0,
-            data: [60, 80, 65, 130, 80, 105, 90, 130, 70, 115, 60, 130],
+            data: [9, 11, 12, 14, 11, 6, 8, 6, 7, 8, 10, 9],
           },
         ],
       };

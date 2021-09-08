@@ -76,7 +76,7 @@ var option = SelectedProductionLine.options
 
                 <div className='DefectRate-header'>
                   <FaIcons.FaChartArea className='DefectRate-icon' size={20} color={'white'}/>
-                  <h3 className='DefectRate-title'>{title} Defect Rate Report</h3>
+                  <h3 className='DefectRate-title'>{title} Defect Rate </h3>
                 </div>
               
               <div className="DefectRate-body">
