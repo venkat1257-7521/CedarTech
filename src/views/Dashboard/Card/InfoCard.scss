@@ -1,0 +1,30 @@
+
+.infocard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+    width: 180px;
+    /* background-color: white; */
+}
+
+.card-icon {
+    padding: 0;
+    margin: 6px;
+    color:#282828;
+}
+
+.progressbar1 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.card-title {
+    color: #282828;
+    margin-top: 10px;
+
+}
+

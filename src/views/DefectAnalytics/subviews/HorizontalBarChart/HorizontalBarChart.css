@@ -1,0 +1,84 @@
+
+
+.HorizontalBarChart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: white;
+
+    margin: 50px 3px 20px 5px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    
+    width: 99.1%;
+
+    
+    
+}
+
+
+.HorizontalBarChart-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100.1%;
+    height: 50px;
+    background-color: #1a1a1a;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 18px;
+    
+}
+
+
+.HorizontalBarChart-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    height: 300px;
+    
+    
+    
+    
+    
+}
+
+
+.HorizontalBarChart-icon {
+    margin-left: 20px;
+    
+}
+
+
+.HorizontalBarChart-title {
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 21px;
+
+    color: white;
+}
+
+
+
+.HorizontalBarChart-body {
+    overflow: hidden;
+    height: 240px;
+    width: 98.5%; 
+    padding: 12px;
+    margin: 2px;
+    margin-top: 15px;
+    
+}
+
+.HorizontalBarChart-title {
+    color: #ffffff;
+    margin-top:30px;
+
+}
+
+
+

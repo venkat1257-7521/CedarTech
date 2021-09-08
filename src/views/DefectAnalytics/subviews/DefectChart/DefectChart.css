@@ -1,0 +1,78 @@
+
+
+.Defect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: white;
+
+    margin: 20px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100%;
+    
+
+    
+}
+
+
+.Defect-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100.1%;
+    height: 50px;
+    background-color: #1a1a1a;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 18px;
+    
+}
+
+
+.Defect-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+    
+    
+}
+
+
+.Defect-icon {
+    margin-left: 20px;
+    
+}
+
+
+.Defect-title {
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 21px;
+
+    color: white;
+}
+
+
+
+.Defect-chart {
+    overflow: hidden;
+    height: 260px;
+    width: 100%; 
+    padding: 4px;
+    margin: 10px;
+    margin-top: 15px;
+    
+    
+}
+
+
+
+
+

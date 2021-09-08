@@ -1,0 +1,54 @@
+@import "src/assets/scss/general-custom-styling/custom/_variables.scss";
+
+
+
+.wrapper{
+    position: relative;
+    top: 0;
+    height: 100vh;
+  
+    &.wrapper-full-page{
+      min-height: 100vh;
+      height: auto;
+    }
+  }
+
+
+
+  .main-panel {
+    position: relative;
+    float: right;
+    width: $full-width;
+    min-height: 100vh;
+    border-top: 2px solid $primary;
+    background: linear-gradient($background-black, $background-states-black);
+  
+    &[data="blue"]{
+      border-top: 2px solid $info;
+    }
+  
+    &[data="green"]{
+      border-top: 2px solid $success;
+    }
+  
+    &[data="primary"]{
+      border-top: 2px solid $primary;
+    }
+  
+    > .content {
+      padding: 78px 30px 30px 280px;
+      min-height: calc(100vh - 70px);
+    }
+  
+    > .navbar {
+      margin-bottom: -20px;
+      
+    }
+  
+  
+    .header {
+      margin-bottom: 0px;
+    }
+  }
+
+
